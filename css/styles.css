@@ -1,0 +1,41 @@
+/*
+    La luz viene después de la oscuridad más grande
+    Tu no pudes ver las estrellas,
+    si tú no tienes una noche oscura
+    La oscuridad puedes ser tu,
+    tu impulso hacia la luz...
+*/
+
+/**************************************** GLOBALES ****************************************/
+
+:root {
+    /* PALETA DE COLORES DEL PROYECTO: */
+    /* Tema Claro: */
+    --tClaro_fondoPrincipal_blancoMarfil: #FAF9F6;
+    --tClaro_paneles-secciones_grisCalido: #E6E2DF; /* Para tarjetas y Overlays */
+    --tClaro_textoPrincipal_grisCarbon: #333333;
+    --tClaro_textoSecundario_grisMedio : #555555; /* Para párrafos y detalles */
+    --tClaro_botones-acentoPrimario_doradoCalido: #D4AF37;
+    --tClaro_acentoSecundario_AzulPetroleo: #2C3E50;
+    --tClaro_bordes-lineasSutiles_grisClaro : #CCCCCC;
+    --tClaro_alertas_exito: #4CAF50;
+    --tClaro_alertas_advertencia: #FFC107;
+    --tClaro_alertas_error: #E74C3C;
+    --tClaro_alertas_info: #3498DB;
+    /* Tema Oscuro: */
+    --tOscuro_fondoPrincipal_grisCarbon: #121212 ;
+    --tOscuro_paneles-secciones_grisMedio: #1E1E1E; /* Para tarjetas y Overlays */
+    --tOscuro_textoPrincipal_blancoHueso: #F5F5F5;
+    --tOscuro_textoSecundario_grisClaro : #CCCCCC; /* Para párrafos y detalles */
+    --tOscuro_botones-acentoPrimario_doradoCalido: #FFC857;
+    --tOscuro_acentoSecundario_AzulPetroleoClaro: #3498DB;
+    --tOscuro_bordes-lineasSutiles_grisOscuro: #2A2A2A ;
+    --tOscuro_alertas_exito: #81C784;
+    --tOscuro_alertas_advertencia: #FFB74D;
+    --tOscuro_alertas_error: #E57373;
+    --tOscuro_alertas_info: #64B5F6;
+}
+
+html {
+    background-color: var();
+}
